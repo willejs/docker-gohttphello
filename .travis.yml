@@ -14,7 +14,7 @@ notifications:
 deploy:
   provider: releases
   api_key: ${GITHUB_AUTH_TOKEN}
-  file: go-http-hello
+  file: go-hello-world
   skip_cleanup: true
   on:
     tags: true
