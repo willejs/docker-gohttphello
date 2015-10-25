@@ -7,7 +7,7 @@ RUN go get github.com/willejs/go-hello-world
 RUN go install github.com/willejs/go-hello-world
 
 # Run the service
-ENTRYPOINT /go/bin/g-hello-world
+ENTRYPOINT /go/bin/go-hello-world
 
 # Document that the service listens on port 8080.
 EXPOSE 8484
