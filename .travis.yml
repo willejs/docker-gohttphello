@@ -1,0 +1,6 @@
+language: go
+go:
+  - 1.5
+script: go get github.com/willejs/go-http-hello && go test && go build
+notifications:
+  email: false
